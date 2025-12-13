@@ -11,7 +11,7 @@ const pool = new Pool({
   ssl: false
 });
 
-async function connect() {
+async function connectDB() {
   try {
     const client = await pool.connect();
     console.log("✅ Database connected");
@@ -22,4 +22,4 @@ async function connect() {
   }
 }
 
-module.exports = { pool, connect };
+module.exports = { pool, connectDB };
