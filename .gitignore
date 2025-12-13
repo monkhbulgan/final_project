@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Python cache (if Odoo or Python used)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# Windows/Mac
+Thumbs.db
+.DS_Store
+
+# Build
+dist/
+build/
